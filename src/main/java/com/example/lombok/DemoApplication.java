@@ -47,7 +47,7 @@ public class DemoApplication {
    }
 //
 //   @SneakyThrows
-   private static void mALLt() {
+   private static void met() {
       try (FileWriter writer = new FileWriter("f.txt")) {
          writer.write("aaa");
       } catch (IOException e) {
